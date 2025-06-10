@@ -7,7 +7,7 @@
 
 这里是 壁纸生成器 NEXT 的图片源市场，为壁纸生成器提供生成图片源的管理与更新功能。
 
-[Main Repo](https://github.com/SRInternet-Studio/Wallpaper-generator)
+[Main Repo](https://github.com/SRInternet-Studio/Wallpaper-generator/tree/NEXT-PREVIEW)
 
 </div>
 
