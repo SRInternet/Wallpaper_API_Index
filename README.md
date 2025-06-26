@@ -11,6 +11,9 @@
 
 </div>
 
+## 编写指南
+参见 **[APICORE 规范 1.0](https://github.com/SRON-org/APICORE/)**
+
 ## 如何上传
 > [!Important]
 > 
