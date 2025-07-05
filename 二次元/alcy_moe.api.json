@@ -1,0 +1,52 @@
+{
+  "friendly_name": "萌图壁纸", 
+  "intro": "基于 举个栗子API 的萌图壁纸生成，支持十余种丰富的图片类型批量生成", 
+  "icon": "https://www.alcy.cc/upload/%E6%A0%97%E5%AD%90.webp",
+  "link": "https://t.alcy.cc/",
+  "func": "GET",
+  "APICORE_version": "1.0",
+  "parameters": [
+    {
+      "name": "json", 
+      "type": "boolean",
+      "value": true,
+      "required": true,
+      "friendly_name": "",
+      "min_value": null,
+      "max_value": null,
+      "split_str": null, 
+      "enable": false
+    }, 
+    {
+      "type": "enum",
+      "required": true,
+      "value": ["moez", "moe", "moemp", "tx", "ai", "aimp", "fj", "bd", "ycy", "mp", "pc"],
+      "friendly_value": ["萌图", "萌电脑壁纸", "萌手机壁纸", "萌头像", 
+                        "AI随机作图", "AI手机壁纸", "唯美风景", "人物壁纸", 
+                        "全部", "全部手机壁纸", "全部电脑壁纸"],
+      "friendly_name": "萌图类型",
+      "min_value": null,
+      "max_value": null,
+      "split_str": null
+    }, 
+    {
+      "name": "quantity",
+      "type": "integer",
+      "required": true,
+      "value": 1,
+      "friendly_name": "生成数量",
+      "min_value": 1,
+      "max_value": 20,
+      "split_str": null
+    }
+  ],
+  "response": {
+    "image": {
+      "content_type": "URL",
+      "path": "[*]",
+      "is_list": true,
+      "is_base64": false
+    },
+    "others": []
+  }
+}
