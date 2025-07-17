@@ -1,0 +1,18 @@
+{
+    "friendly_name": "远方图片", 
+    "intro": "远方4K风景图", 
+    "icon": "https://tu.ltyuanfang.cn/favicon.ico",
+    "link": "https://tu.ltyuanfang.cn/api/fengjing.php",
+    "func": "GET",
+    "APICORE_version": "1.0",
+    "parameters": [],
+    "response": {
+      "image": {
+        "content_type": "BINARY",
+        "path": "",
+        "is_list": false,
+        "is_base64": false
+      },
+      "others": []
+    }
+  }

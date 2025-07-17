@@ -1,0 +1,18 @@
+{
+    "friendly_name": "随机福瑞", 
+    "intro": "提供兽装图片接口", 
+    "icon": "https://api.furry.ist/favicon.ico",
+    "link": "https://api.furry.ist/furry-img/",
+    "func": "GET",
+    "APICORE_version": "1.0",
+    "parameters": [],
+    "response": {
+      "image": {
+        "content_type": "BINARY",
+        "path": "",
+        "is_list": false,
+        "is_base64": false
+      },
+      "others": []
+    }
+  }

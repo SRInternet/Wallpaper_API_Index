@@ -1,0 +1,30 @@
+{
+    "friendly_name": "溯零云随机图片", 
+    "intro": "溯零云随机图片API，支持摄影、二次元等多种类型", 
+    "icon": "https://rpic.origz.com/favicon.ico",
+    "link": "https://rpic.origz.com/api.php?",
+    "func": "GET",
+    "APICORE_version": "1.0",
+    "parameters": [
+        {
+            "name": "category",
+            "type": "enum",
+            "required": true,
+            "value": ["photography", "pixiv", "ai", "aesthetic", "science", "texture", "histogram"], 
+            "friendly_value": ["摄影记录", "二次元", "AI绘图", "唯美场景", "科幻未来", "质感设计", "方图"],
+            "friendly_name": "壁纸尺寸",
+            "min_value": null,
+            "max_value": null,
+            "split_str": null
+        }
+    ],
+    "response": {
+      "image": {
+        "content_type": "BINARY",
+        "path": "",
+        "is_list": false,
+        "is_base64": false
+      },
+      "others": []
+    }
+  }
