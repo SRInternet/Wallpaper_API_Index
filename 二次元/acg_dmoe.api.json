@@ -1,0 +1,18 @@
+{
+  "friendly_name": "樱花二次元图片",
+  "intro": "生成二次元ACG图片，来自 Dmoe API",
+  "icon": "https://www.dmoe.cc/favicon.ico",
+  "link": "https://www.dmoe.cc/random.php?return=json",
+  "func": "GET",
+  "APICORE_version": "1.0",
+  "parameters": [],
+  "response": {
+    "image": {
+      "content_type": "URL",
+      "path": "imgurl",
+      "is_list": false,
+      "is_base64": false
+    },
+    "others": []
+  }
+}

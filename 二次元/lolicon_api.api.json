@@ -1,6 +1,6 @@
 {
-  "friendly_name": "Pixiv 生成", 
-  "intro": "从 Pixiv（国内代理） 随机获取一张图片，并下载到本地。", 
+  "friendly_name": "Pixiv 生成 2",
+  "intro": "从 Pixiv（国内代理） 随机获取一张图片，并下载到本地。",
   "icon": "https://img.icons8.com/?size=256&id=gVRdM4p4G9Ic&format=png",
   "link": "https://api.lolicon.app/setu/v2",
   "func": "GET",
@@ -15,20 +15,28 @@
       "min_value": null,
       "max_value": null,
       "split_str": null
-    }, 
+    },
     {
       "name": "r18",
       "type": "enum",
       "required": true,
-      "value": [0, 1, 2],
-      "friendly_value": ["否", "是", "可能"],
+      "value": [
+        0,
+        1,
+        2
+      ],
+      "friendly_value": [
+        "否",
+        "是",
+        "可能"
+      ],
       "friendly_name": "包含 R18",
       "min_value": null,
       "max_value": null,
       "split_str": null
-    }, 
+    },
     {
-      "name": "uid", 
+      "name": "uid",
       "type": "string",
       "value": "",
       "required": false,
@@ -36,17 +44,20 @@
       "min_value": null,
       "max_value": null,
       "split_str": null
-    }, 
+    },
     {
       "name": "tag",
       "type": "list",
       "required": false,
-      "value": ["萝莉", "蔚蓝档案"],
+      "value": [
+        "萝莉",
+        "蔚蓝档案"
+      ],
       "friendly_name": "标签 Tags",
       "min_value": null,
       "max_value": null,
       "split_str": "|"
-    }, 
+    },
     {
       "name": "num",
       "type": "integer",
@@ -55,6 +66,16 @@
       "friendly_name": "生成数量",
       "min_value": 1,
       "max_value": 15,
+      "split_str": null
+    },
+    {
+      "name": "proxy",
+      "type": "string",
+      "value": "i.pximg.org",
+      "required": false,
+      "friendly_name": "图片地址反代",
+      "min_value": null,
+      "max_value": null,
       "split_str": null
     }
   ],
@@ -102,13 +123,13 @@
             "path": "data[*].urls.uploadDate"
           }
         ]
-      }, 
+      },
       {
         "friendly_name": "图片标签",
         "data": [
           {
             "friendly_name": "图片标签",
-            "path": "data[*].tags", 
+            "path": "data[*].tags",
             "one-to-one-mapping": true
           }
         ]

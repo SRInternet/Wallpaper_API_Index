@@ -1,0 +1,18 @@
+{
+  "friendly_name": "CosPlay 10",
+  "intro": "十张 CosPlay! 基于 imgapi.cn 接口",
+  "icon": "https://imgapi.cn/favicon.ico",
+  "link": "https://imgapi.cn/cos.php?return=jsonpro",
+  "func": "GET",
+  "APICORE_version": "1.0",
+  "parameters": [],
+  "response": {
+    "image": {
+      "content_type": "URL",
+      "path": "imgurls",
+      "is_list": true,
+      "is_base64": false
+    },
+    "others": []
+  }
+}

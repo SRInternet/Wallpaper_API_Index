@@ -1,0 +1,28 @@
+{
+  "friendly_name": "一套 CosPlay",
+  "intro": "一整套 CosPlay 图集，超多 coser 照片。生成时间可能较长",
+  "icon": "https://api.lolimi.cn/assets/img/favicons/favicon.png",
+  "link": "https://api.lolimi.cn/API/cosplay/api.php",
+  "func": "GET",
+  "APICORE_version": "1.0",
+  "parameters": [],
+  "response": {
+    "image": {
+      "content_type": "URL",
+      "path": "data.data[*]",
+      "is_list": true,
+      "is_base64": false
+    },
+    "others": [
+      {
+        "friendly_name": "图片标题",
+        "data": [
+          {
+            "friendly_name": "标题",
+            "path": "data.Title"
+          }
+        ]
+      }
+    ]
+  }
+}

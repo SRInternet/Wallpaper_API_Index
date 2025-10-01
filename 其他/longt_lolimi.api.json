@@ -1,0 +1,18 @@
+{
+  "friendly_name": "龙图",
+  "intro": "你在龙什么",
+  "icon": "blob:https://api.lolimi.cn/d1acd598-74c0-4be6-87e9-05206bfd7a6a",
+  "link": "https://api.lolimi.cn/API/longt/l.php",
+  "func": "GET",
+  "APICORE_version": "1.0",
+  "parameters": [],
+  "response": {
+    "image": {
+      "content_type": "BINARY",
+      "path": "",
+      "is_list": false,
+      "is_base64": false
+    },
+    "others": []
+  }
+}

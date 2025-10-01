@@ -1,0 +1,29 @@
+{
+  "friendly_name": "QQ头像",
+  "intro": "通过QQ号返回高清QQ头像大图，基于 imgapi 接口",
+  "icon": "https://imgapi.cn/favicon.ico",
+  "link": "https://imgapi.cn/qq.php",
+  "func": "GET",
+  "APICORE_version": "1.0",
+  "parameters": [
+    {
+      "name": "qq",
+      "type": "string",
+      "value": "",
+      "required": true,
+      "friendly_name": "QQ号",
+      "min_value": null,
+      "max_value": null,
+      "split_str": null
+    }
+  ],
+  "response": {
+    "image": {
+      "content_type": "BINARY",
+      "path": "",
+      "is_list": false,
+      "is_base64": false
+    },
+    "others": []
+  }
+}

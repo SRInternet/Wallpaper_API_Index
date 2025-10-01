@@ -1,0 +1,18 @@
+{
+  "friendly_name": "帅哥图片",
+  "intro": "随机输出一张帅哥图片",
+  "icon": "https://api.lolimi.cn/logo.png",
+  "link": "https://api.lolimi.cn/API/boy/api.php",
+  "func": "GET",
+  "APICORE_version": "1.0",
+  "parameters": [],
+  "response": {
+    "image": {
+      "content_type": "BINARY",
+      "path": "",
+      "is_list": false,
+      "is_base64": false
+    },
+    "others": []
+  }
+}

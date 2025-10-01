@@ -1,0 +1,18 @@
+{
+  "friendly_name": "超甜辣妹壁纸",
+  "intro": "随机返回一个超级高质量的超甜辣妹壁纸",
+  "icon": "https://api.lolimi.cn/assets/img/favicons/favicon.png",
+  "link": "https://api.lolimi.cn/API/xjj/lt.php",
+  "func": "GET",
+  "APICORE_version": "1.0",
+  "parameters": [],
+  "response": {
+    "image": {
+      "content_type": "BINARY",
+      "path": "",
+      "is_list": false,
+      "is_base64": false
+    },
+    "others": []
+  }
+}
